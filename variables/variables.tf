@@ -37,7 +37,7 @@ variable "ingress_from_port" {
     default = 0
 }
 
-variable "inegress_to_port" {
+variable "ingress_to_port" {
     type = number
     default = 0
 }
