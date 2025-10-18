@@ -1,10 +1,10 @@
 variable "instances" {
-    # default = [ "mongodb","redis", "mysql" ]
-    default = {
-        mongodb : "t3.micro"
-        redis : "t3.micro"
-        mysql : "t3.small"
-    }
+    default = [ "mongodb","redis", "mysql" ]
+    # default = {
+    #     mongodb : "t3.micro"
+    #     redis : "t3.micro"
+    #     mysql : "t3.small"
+    # }
 }
 
 variable "zone_id" {
